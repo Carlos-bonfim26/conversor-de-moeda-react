@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    background: url('assets/chico-moedas-youtube-reproducao.png') no-repeat;
+  background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+    padding: 0.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.5);
+}
+input{
+    outline: none;
+}
